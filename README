@@ -1,0 +1,24 @@
+Files Included:
+
+blur.exr  - Sample gaussian blur image created by my code
+
+main.cpp  - main file
+
+main.h  - header file
+
+main_t04m01  - executable
+
+makefile  - makefile
+
+scale.exr  - Sample scaled exr file with my code
+
+tree.exr  - tester exr file
+
+
+To run:
+
+make
+
+./main_t04m01 input output -arg param
+
+./main_t04m01 tree.exr scale.exr -s 0.5
